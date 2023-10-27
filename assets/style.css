@@ -5,3 +5,14 @@
 .box-shadow{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05), 0 4px 8px 0 rgba(0, 0, 0, .05);
 }
+
+.menu-nav a{
+    font-family: 'Noto Sans Kawi', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 1.1px;
+    font-weight: bold;
+}
+
+.menu-nav a:hover{
+    color: rgb(152, 152, 212) !important;
+}
