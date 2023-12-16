@@ -21,3 +21,20 @@ body{
 .menu-nav a:hover{
     color: rgb(152, 152, 212) !important;
 }
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media (min-width: 1700px) {
+    .custom-container {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
