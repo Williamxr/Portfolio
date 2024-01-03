@@ -21,6 +21,28 @@ body{
     color: rgb(152, 152, 212) !important;
 }
 
+/* Section dialog */
+
+dialog{
+    display: none;
+}
+
+dialog.open {
+    display: block; /* Mostra o dialog quando tem a classe 'open' */
+    z-index: 1000;
+    margin-top: -100px;
+}
+
+.btcPreco{
+    background-color: #f8f9fa;
+    padding: .2rem .5rem;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+/* Section dialog */
+
+
 /* Media Queries */
 
 @media (min-width: 1700px) {
