@@ -21,14 +21,6 @@ body{
     color: rgb(152, 152, 212) !important;
 }
 
-
-
-
-
-
-
-
-
 /* Media Queries */
 
 @media (min-width: 1700px) {
@@ -37,3 +29,10 @@ body{
         margin: auto;
     }
 }
+@media (max-width: 767px) {
+    .terminal-icon {
+        width: 70px;
+    }
+}
+
+/* Media Queries */
